@@ -5,12 +5,10 @@ plugins {
 
 android {
     namespace = "com.example.androidlab"
-    compileSdk {
-        version = release(36)
-    }
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.test1.androidlab"
+        applicationId = "com.example.androidlab"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -35,9 +33,11 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    viewBinding.isEnabled = true
 }
 
 dependencies {
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -47,4 +47,3 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
-
