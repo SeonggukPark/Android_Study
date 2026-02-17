@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidLab"
 include(":ch6_view")
+include(":myapplication")
+include(":ch6_view2")
