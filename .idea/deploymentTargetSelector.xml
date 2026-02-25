@@ -74,9 +74,6 @@
       <SelectionState runConfigName="test14">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ch6_view">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="ch7_layout">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
